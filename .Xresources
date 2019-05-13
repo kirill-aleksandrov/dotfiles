@@ -4,6 +4,11 @@ URxvt.font: xft:DejaVu Sans Mono for Powerline:style=Book:pixelsize=16
 URxvt.scrollBar: false
 URxvt.fading: 0
 
+URxvt.perl-ext-common: default,resize-font
+
+URxvt.keysym.C-equal: resize-font:bigger
+URxvt.keysym.C-0: resize-font:reset
+
 ! Solarized color scheme for the X Window System
 !
 ! http://ethanschoonover.com/solarized
